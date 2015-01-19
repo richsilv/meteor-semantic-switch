@@ -1,0 +1,20 @@
+/*****************************************************************************/
+/* Settings: Style */
+/*****************************************************************************/
+.switch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 4.5em; }
+  .switch .switch-option {
+    flex: 1 1;
+    cursor: pointer; }
+    .switch .switch-option:first-child {
+      text-align: right; }
+    .switch .switch-option:last-child {
+      text-align: left; }
+  .switch .ui.toggle.checkbox {
+    margin-left: 1em; }
+    .switch .ui.toggle.checkbox input ~ label:before, .switch .ui.toggle.checkbox input:checked ~ label:before {
+      background-color: rgba(0, 0, 0, 0.1); }
